@@ -65,7 +65,7 @@ def check_process_running(process_name):
     return False
 
 if not check_process_running('VOICEVOX.exe'):
-    subprocess.Popen(['D:\VoiceVOX\VOICEVOX.exe'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.Popen(['VOICEVOX PATH\VOICEVOX.exe'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 print("Press and hold 'v' to record.")
 while True:
